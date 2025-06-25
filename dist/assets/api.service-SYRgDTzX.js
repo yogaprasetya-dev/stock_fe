@@ -1,1 +1,0 @@
-import{a,c as o}from"./index-D-6hEweM.js";import{am as s}from"./index-BgBP_tks.js";const r=o.apiURL,n=a.create({baseURL:`${r}/api/v1/`,headers:{"Content-Type":"application/json"}});n.interceptors.request.use(e=>{const t=s();return t&&(e.headers.Authorization=`Bearer ${t}`),e});export{n as A};
