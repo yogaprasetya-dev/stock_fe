@@ -19,6 +19,8 @@ package*
 schema.prisma
 tsconfig*
 vite.config.ts
+cypress.config.mjs
+cypress
 
 # Editor directories and files
 .vscode/*
